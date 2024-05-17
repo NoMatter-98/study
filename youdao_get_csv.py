@@ -15,6 +15,8 @@ listening
 2, lounge
 '''
 
+# 有道词典导出成txt后，重新保存成utf-8编码格式的listening1.txt，下面这个代码就改一下输入输出文件的这俩路径就能用了
+
 import os
 write_list = []
 with open(r"C:\Users\g4560\Desktop\listening1.txt",'r',encoding='utf-8',errors='ignore') as file:
